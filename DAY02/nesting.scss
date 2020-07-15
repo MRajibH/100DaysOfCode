@@ -1,0 +1,12 @@
+$color: rgb(12, 88, 46);
+$color1:springgreen;
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    p{
+        color:$color1;
+    }
+    ul{
+        color:$color;
+    }
+}
