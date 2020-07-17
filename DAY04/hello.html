@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <style>
+        div {
+            text-align: center;
+            font-size: 100px;
+            color: springgreen;
+        }
+    </style>
+    <script>
+        function hello() {
+            if (document.querySelector("h1").innerHTML === "Hello!") {
+                document.body.style.backgroundColor = "tomato";
+            } else {
+                document.querySelector("h1").innerHTML = "Hello!";
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1>Hello!</h1>
+
+        <button onclick="hello()">click here</button>
+    </div>
+</body>
+
+</html>
